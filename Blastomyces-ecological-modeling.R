@@ -47,7 +47,7 @@ y.test <- as.numeric(as.character(y.test))
 # Calculate misclassification error
 mean((y.hat.test-y.test)^2)
 
-# Plot the calssification tree
+# Plot the classification tree
 plot(tr)
 text(tr,pretty=0)
 
